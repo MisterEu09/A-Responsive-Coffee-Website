@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+</head>
+<body>
+    <!--Header/Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="" class="nav-logo">
+                <h2 class="logo-text">☕ Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"
+                 ></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonial" class="nav-link">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <!--Hero section-->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffe!</h3>
+                    <p class="description">
+                    Bem-vindo ao nosso paraíso do café, onde cada grão conta uma história e cada xícara traz alegria.
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper"><img src="responsive-coffee-website-html-and-css-images/images/coffee-hero-section.png" alt="" class="hero-image"></div>
+        </div>
+        </section>
+        <!--about section-->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="responsive-coffee-website-html-and-css-images/images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">
+
+                        Aqui na Coffee, acreditamos que cada xícara de café é uma experiência única. Nossa paixão é oferecer um espaço acolhedor e convidativo para você relaxar, conectar-se com amigos ou simplesmente apreciar um momento de paz.
+                        <br>
+                        Utilizamos grãos de <b>café de alta qualidade</b> e métodos de preparo tradicionais para garantir um sabor inigualável em cada gole. Nosso menu também inclui <b>opções deliciosas de lanches e sobremesas</b>, perfeitas para acompanhar seu café.
+                        <br>
+                        Venha nos visitar e descubra o que torna a coffee um lugar especial! 
+                        </p>
+                        <div class="social-link-list">
+                            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--Menu section-->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            Hot Beverages
+                        </h3>
+                        <p class="text">"Nossas bebidas quentes são como um abraço aconchegante em um dia frio, feitas com carinho para aquecer seu corpo e sua alma." 
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/cold-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            Cold Beverages
+                        </h3>
+                        <p class="text">"Nossas bebidas geladas são como um mergulho refrescante em um dia quente, feitas para saciar sua sede e te dar um boost de energia."  
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/refreshment.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            Refreshment
+                        </h3>
+                        <p class="text">"Nossos sucos são como um abraço fresco e saboroso, feitos com frutas da estação para te dar um shot de vitaminas e te energizar." 
+
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/special-combo.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            Special Combo
+                        </h3>
+                        <p class="text">"Nosso combo especial é a combinação perfeita para saciar sua fome e te levar para o paraíso: um suculento hambúrguer, batatas fritas crocantes e um sundae irresistível para finalizar com chave de ouro." 
+
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/desserts.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            Desserts
+                        </h3>
+                        <p class="text">"Deixe-se levar pela doçura da estação com nossas sobremesas de frutas frescas, um deleite para os sentidos e um toque de frescor para finalizar sua experiência." 
+
+
+                        </p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/burger-frenchfries.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">
+                            burger and french fries
+                        </h3>
+                        <p class="text">"A combinação clássica que você ama, agora ainda mais irresistível: nosso hambúrguer suculento e batatas fritas crocantes, uma dupla imbatível para saciar seus desejos!" 
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Testimonials section-->
+        <section class="testimonials-section" id="testimonial">
+
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="responsive-coffee-website-html-and-css-images/images/user-1.jpg" alt="User Image" class="user-image">
+                                <h3 class="name">
+                                    Sarah Johnson
+                                </h3>
+                                <i class="feedback">"O melhor café da cidade! Adoro o ambiente aconchegante."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="responsive-coffee-website-html-and-css-images/images/user-2.jpg" alt="User Image" class="user-image">
+                                <h3 class="name">
+                                    Rafael Costa
+                                </h3>
+                                <i class="feedback">"Já virou meu lugar favorito para tomar café da manhã."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="responsive-coffee-website-html-and-css-images/images/user-3.jpg" alt="User Image" class="user-image">
+                                <h3 class="name">
+                                    Pedro Santos
+                                </h3>
+                                <i class="feedback">"Atendimento impecável, sempre com um sorriso no rosto."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="responsive-coffee-website-html-and-css-images/images/user-4.jpg" alt="User Image" class="user-image">
+                                <h3 class="name">
+                                    Alice Oliveira
+                                </h3>
+                                <i class="feedback">"Adoro vir aqui para trabalhar, a internet é rápida e o café é perfeito."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="responsive-coffee-website-html-and-css-images/images/user-5.jpg" alt="User Image" class="user-image">
+                                <h3 class="name">
+                                    Mariano Silva
+                                </h3>
+                                <i class="feedback">"Parabéns pela qualidade dos produtos e pelo atendimento!"</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>  
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Gallery section-->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">
+                Gallery
+            </h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="responsive-coffee-website-html-and-css-images/images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                   
+                </ul>
+            </div>
+        </section>
+        <section class="contact-section" id="Contact">
+            
+                <h2 class="section-title">Contact us</h2>
+              
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>Rua das Flores, 123, Bairro Jardim Encantado, 00000-000</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>info@coffeeshopwebsite.com</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>(11) 2345-6789</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p></p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Segunda - Sexta: 7:00 AM - 18:00 PM</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Sabádo: Fechado</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.coffeewebsho.com</p>
+                        </li>
+                    </ul>
+                    <form action="#" method="post" autocomplete="on" class="contact-form">
+                            <input type="text" name="nome" id="inome"
+                            required
+                            placeholder="Seu nome"class="form-input">
+                            <input type="email" name="login" id="ilogin" placeholder="Seu email" autocomplete="email" required maxlength="30" class="form-input">
+                            <textarea class="form-input" required placeholder="Sua mensagem"></textarea> 
+                            <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="redes" class="footer-section">
+            <section class="section-content">
+                <p class="copyright-text">© 2025 Coffee Shop</p>
+                <div class="redes">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <p class="policy-text"><a href="#" class="policy-link">Privacy policy</a><span class="separator">•</span><a href="#" class="policy-link">Privacy policy</a></p>
+            </section>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    const menuButtons = document.querySelectorAll('.navbar :where(#menu-close-button, #menu-open-button)');
+
+        function handleResize() {
+          if (window.innerWidth > 900) {
+            menuButtons.forEach(button => button.style.display = 'none');
+          } else {
+            menuButtons.forEach(button => button.style.display = 'block');
+          }
+        }
+        
+        // Chama a função no carregamento da página
+        handleResize();
+        
+        // Adiciona um listener para o evento de redimensionamento da janela
+        window.addEventListener('resize', handleResize);
+
+        const menuOpenButton = document.querySelector("#menu-open-button");
+        const menuCloseButton = document.querySelector("#menu-close-button");
+        const navLinks = document.querySelectorAll(".nav-menu .nav-link");
+        menuOpenButton.addEventListener("click", () => {
+            
+        document.body.classList.toggle("show-mobile-menu")
+        });
+        menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", () => menuOpenButton.click());
+        })
+
+ const swiper = new Swiper('.slider-wrapper', {
+
+    loop: true,
+    spaceBetween:25,
+    grabCursor:true,
+    // If we need pagination
+    pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+    dynamicBullets:true,
+    },
+
+    // Navigation arrows
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView:1
+        },
+        768: {
+            slidesPerView:2
+        },
+        1024: {
+            slidesPerView:3
+        }
+    }
+});
+
+    </script>
+
+</body>
+</html>
