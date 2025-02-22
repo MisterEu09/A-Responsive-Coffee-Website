@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/eae501d8-8144-4af8-ba35-7dd0a10e94e0)![image](https://github.com/user-attachments/assets/6097bf08-eaf9-48e9-9eaa-0c4d8bba9541)
+![image](https://github.com/user-attachments/assets/eae501d8-8144-4af8-ba35-7dd0a10e94e0)
 
 
 **Descrição do Projeto: Website Responsivo de Cafeteria**
